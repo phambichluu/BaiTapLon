@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace BaiTapLon.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
